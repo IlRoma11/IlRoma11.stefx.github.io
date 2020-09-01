@@ -1,0 +1,61 @@
+body {background-image:url(Elements/Aa51m.jpg);
+  background-attachment: fixed; background-repeat:no-repeat;
+background-size:cover;}
+#titleBox {border:  #d7f2f7;}
+
+#aboutMe {border:solid black 2px; border-radius:px; padding: 5px 50px 5px 50px;
+  font-size: 50px; text-decoration:none;
+  color:grey; font-weight:bold; font-size:20px; text-shadow: 0 0 1px black;
+  font-family:"Lucida Console", Monaco, monospace;
+  transition-property:text-shadow; transition-duration: 1s;
+  position:relative; top:65px;}
+#aboutMe:hover {color:black;
+  text-shadow: 0px 0px 20px lime;
+}
+#logo {padding-top:50px;}
+#titleBox {display:block;}
+#titleBox h3 {text-align:center; color:gray; letter-spacing: 0.2em;
+  font-family:"Lucida Console", Monaco, monospace; font-size:23px; padding-top: 50px;
+  text-shadow:0 15px 5px black;}
+#logo {filter: brightness(150%);}
+
+nav {margin-top:1.5%; display:block;}
+   ul{list-style-type: none;}
+   nav h2{color:#545f70; font-family:"Lucida Console", Monaco, monospace;}
+   nav li {margin-bottom:20px; right:160px; position:relative; transition-property:right;
+     transition-duration: 1s;}
+   nav li:hover {right:70px;}
+#LAVORO {background-color:#383c44; color:black; font-size:20px; padding:3px 36px 3px 30px;
+  border:solid #545f70 1px; font-family:"Lucida Console", Monaco, monospace;}
+ #LAVORO:hover {color:;}
+#SPORT {background-color:#353c47; color:black; font-size:20px; padding:3px 48px 3px 30px;
+  border:solid #545f70 1px; font-family:"Lucida Console", Monaco, monospace;}
+  #SPORT:hover {color:;}
+#HOBBY {background-color:#353c47; color:black; font-size:20px; padding:3px 48px 3px 30px;
+  border:solid #545f70 1px; font-family:"Lucida Console", Monaco, monospace;}
+  #HOBBY:hover {color:;}
+
+#footer {display:inline-block; position:fixed;
+  bottom:-150px; padding:10px; background-color:black; margin-left:-10px;  text-align:center;
+height:200px; transition-property:bottom; transition-duration:2s;}
+#footer:hover {bottom:-60px;}
+
+#footer a { text-decoration:none;
+  color:lightgray; font-size:23px;
+  text-shadow: 0 0 5px black; font-family:"Lucida Console", Monaco, monospace; margin-top:50px;
+transition-property:text-shadow; transition-duration: 1s; vertical-align:middle ;}
+  #footer a:hover { text-shadow: 0 0 20px lime; }
+
+    #footer h3 {font-family:"Lucida Console", Monaco, monospace; color:lightgray;
+     font-size:25px; margin-top:10px; font-weight:black;}
+
+    #footer img {width:1.5%; height:auto; position:relative; vertical-align: middle;}
+
+
+  #home {font-weight:bold; text-decoration:none; color:#d7f2f7;
+     font-size:30px; text-shadow: 2px 15px 5px black;
+   transition-property:text-shadow; transition-duration: 2s;}
+     #home:hover {color:#59748c;
+       text-shadow:1px 1px 10px black;
+     }
+  #test {text-decoration: none; text}
